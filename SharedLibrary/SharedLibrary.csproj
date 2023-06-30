@@ -10,4 +10,12 @@
    <LangVersion>preview</LangVersion>
 </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Requests\AuthenticationRequestscs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Requests\AuthenticationRequestscs" />
+  </ItemGroup>
+
 </Project>

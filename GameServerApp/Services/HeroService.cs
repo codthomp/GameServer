@@ -1,18 +1,18 @@
 ﻿using System;
 
-namespace Server.Services;
+namespace GameServerApp.Services;
 
-public interface IPlayerService {
+public interface IHeroService {
     void DoSomething();
 }
 
-public class PlayerService : IPlayerService {
+public class HeroService : IHeroService {
     public void DoSomething() {
         Console.WriteLine("hey!");
     }
 }
 
-public class MockPlayerService : IPlayerService {
+public class MockHeroService : IHeroService {
     public void DoSomething() {
         Console.WriteLine("hey from Mock service");
     }
